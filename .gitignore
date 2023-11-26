@@ -1,9 +1,12 @@
 
+wandb/
+saved_models/
+
+
 #data
 *.json
 *.csv
 chromedriver*
-wandb
 output
 
 #checkpoint 
@@ -112,6 +115,9 @@ __pypackages__/
 celerybeat-schedule
 celerybeat.pid
 
+#selenium
+chromedriver_win32/
+
 # SageMath parsed files
 *.sage.py
 
@@ -124,6 +130,9 @@ ENV/
 env.bak/
 venv.bak/
 magacrea/
+
+#dataset
+data/
 
 # Spyder project settings
 .spyderproject
